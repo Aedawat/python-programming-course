@@ -25,5 +25,5 @@ class Car(vehicle):
     def get_info(self):
         return f"Brand: {self.brand}, Model: {self.model}, Year: {self.year}, Doors: {self.number_of_door}"
     
-    myCar = Car("Toyota", "Prius", 2022, 5)
-    print(myCar.get_info())
+myCar = Car("Toyota", "Prius", 2022, 5)
+print(myCar.get_info())
